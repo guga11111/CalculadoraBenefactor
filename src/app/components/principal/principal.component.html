@@ -1,0 +1,42 @@
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+<div class="content">
+  <div class="content__container">
+    <p class="content__container__text">
+      Hello
+    </p>
+    
+    <ul class="content__container__list">
+      <li class="content__container__list__item">Benefactor !</li>
+      <li class="content__container__list__item">Omar !</li>
+      <li class="content__container__list__item">Josué !</li>
+      <li class="content__container__list__item">=) </li>
+    </ul>
+  </div>
+</div>
+<div class="div" >
+<input maxlength="5" value="{{display}}"  class="display" 
+ >
+  
+<br>
+<button class="buttonl" (click)="number(1)">1</button>
+<button (click)="number(2)">2</button>
+<button (click)="number(3)">3</button>
+<br>
+<button class="buttonl" (click)="number(4)">4</button>
+<button (click)="number(5)">5</button>
+<button (click)="number(6)">6</button>
+<br>
+<button class="buttonl" (click)="number(7)">7</button>
+<button (click)="number(8)">8</button>
+<button (click)="number(9)">9</button>
+<br>
+<button class="buttonl" (click)="number(11)">X</button>
+<button (click)="number(12)">-</button>
+<button (click)="number(13)">+</button>
+<br>
+<button class="buttonl" (click)="number(14)">=</button>
+<button (click)="number(15)">AC</button>
+<button (click)="number(16)">.</button>
+</div>
+  <p class="p" *ngIf="display==''">Favor de poner algún número</p>
